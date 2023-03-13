@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+use Assigment\FileHelper;
+
+require "vendor/autoload.php";
+
+/**
+ * PHP CLI Separator file
+ */
+
+if (count($argv) !== 3) {
+    echo 'Please provide a directory and separator';
+}
+
+[$script, $directory, $separator] = $argv;
+
+FileHelper::groupFilesByPrefix($directory, $separator);

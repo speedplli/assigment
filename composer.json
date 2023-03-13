@@ -1,0 +1,19 @@
+{
+  "name": "speedplli/assigment",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Assigment\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Maher Al Ghoul",
+      "email": "speedplli@windowslive.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.3"
+  }
+}
